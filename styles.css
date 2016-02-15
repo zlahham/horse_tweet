@@ -1,7 +1,70 @@
-.tweet {
-  padding: 9px 12px;
-  background-color: #FBFBFB;
-  height: 88px;
-  width: 532px;
+* { margin:0; padding:0; }
+p {
+  margin:0 0 0 0;
+  display: inline;
+  font-family: HelveticaNeue;
 }
 
+.tweet {
+  position: relative;
+  margin: 25px;
+  height: 88px;
+  width: 532px;
+  background-color: #FBFBFB;
+}
+
+.content {
+  position: absolute;
+  top: 7px;
+  height: 74px;
+  width: 532px;
+  background-color: #FBFBFB;
+  border-top: solid #F2F2F2 1px;
+  border-bottom: solid #F2F2F2 1px;
+}
+
+.inner-content {
+  position: relative;
+
+}
+
+#horse-pic {
+  position: absolute;
+  top: 13px;
+  left: 11px;
+  height: 48px;
+  display: inline;
+}
+
+#account {
+  position: absolute;
+  top: 13px;
+  left: 69px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #292F33;
+
+}
+
+#message {
+  position: absolute;
+  top: 29px;
+  left: 69px;
+  font-size: 14px;
+  font-weight: regular;
+  color: #292F33;
+}
+
+#inner-account {
+  color: #8899A6;
+}
+
+#date {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
+  font-size: 11px;
+  font-weight: thin;
+  color: #8899A6;
+}
