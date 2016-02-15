@@ -10,7 +10,7 @@ p {
   position: relative;
   margin: 25px;
   height: 88px;
-  width: 532px;
+  max-width: 532px;
   background-color: #FBFBFB;
 }
 
@@ -67,3 +67,4 @@ p {
   font-weight: thin;
   color: #8899A6;
 }
+
